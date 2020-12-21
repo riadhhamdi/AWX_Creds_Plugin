@@ -1,3 +1,5 @@
+import json 
+import random
 import collections
 
 CredentialPlugin = collections.namedtuple('CredentialPlugin', ['name', 'inputs', 'backend'])
@@ -16,11 +18,20 @@ def lookup_function(**kwargs):
     if token != 'VALID':
         raise ValueError('Invalid token!')
 
+    users=['riadh', 'root', 'devops', 'ansible']
+    user=random.choice(users)
+    # output={}
+    # output['username']=user
+    # output['email']='rhamdi@redhat.com'
+    # output['password']='redhat'
+    
     value = {
-        'username': 'riadh',
+        'username': user,
         'email': 'rhamdi@redhat.com',
         'password': 'redhat'
     }
+
+    print(value)
 
     if identifier in value:
         return value[identifier]
