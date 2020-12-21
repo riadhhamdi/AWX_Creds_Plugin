@@ -49,7 +49,7 @@ In this part we are going to create a new machine credentials based on the looku
           
 In the example below, we are creating a machine credentials to get the username and the password from exernal "vault"
 
-Check this video: [Show as video](https://youtu.be/2iGpTgmuYbse "Creating the credentials based on Credentials plugin")
+Check this video: [Show as video](https://youtu.be/6uGu1nPtpVg "Creating the credentials based on Credentials plugin")
 
 
 # Putting all together 
