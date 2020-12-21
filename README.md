@@ -26,6 +26,8 @@ Check the full Installation Process here  [Show as video](https://youtu.be/2iGpT
 The lookup secret will be the link between the third-party tool providing the secret and the credentials that will be used to connect to the server. 
 For example, if you need to authenticate to the external tool you may provide a token of a username/password to get access to the secrets. 
 
+The process is explained in the following video [Show as video](https://youtu.be/gq3FkY0B8oM "Creating the Secrets lookup")
+
 
 # Creating the server Credentials based on the lookup Secret 
 In this part we are going to create a new machine credentials based on the lookup plugin, So the username and the password are not static values stored in the credentials, but they will be looked up by our credentials plugin. 
