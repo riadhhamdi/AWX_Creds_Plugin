@@ -46,3 +46,16 @@ In this part we are going to create a new machine credentials based on the looku
           }
 
           ```
+          
+In the example below, we are creating a machine credentials to get the username and the password from exernal "vault"
+
+Check this video: [Show as video](https://youtu.be/2iGpTgmuYbse "Creating the credentials based on Credentials plugin")
+
+
+# Putting all together 
+
+In this part we will use the new machine credentials created previously to connect to the server. 
+To show the password wile connecting to the server, I modified the ssh connection plugin to show the password used to connect to the server. 
+We have put the debug level to 4 to see the output 
+
+Check the video for more information: [Show as video](https://youtu.be/2iGpTgmuYbse "Using new dynamic Credentials in a job template")      
