@@ -31,6 +31,8 @@ For example, if you need to authenticate to the external tool you may provide a 
 In this part we are going to create a new machine credentials based on the lookup plugin, So the username and the password are not static values stored in the credentials, but they will be looked up by our credentials plugin. 
 
 **Note**: We are using a very simple plugin returning static values (username=riadh and password=redhat) check the code below. In real production environment the lookup is done based on other crtiterias.
+
+
           ```
           if token != 'VALID':
             raise ValueError('Invalid token!')
