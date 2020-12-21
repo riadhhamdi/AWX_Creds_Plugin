@@ -18,4 +18,7 @@ ansible-tower-service restart
 ```
 
 
+Check the full Installation Process here  [Show as video](https://youtu.be/2iGpTgmuYbse "Installing new credentials plugin")
+
+
 
