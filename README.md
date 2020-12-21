@@ -58,4 +58,4 @@ In this part we will use the new machine credentials created previously to conne
 To show the password wile connecting to the server, I modified the ssh connection plugin to show the password used to connect to the server. 
 We have put the debug level to 4 to see the output 
 
-Check the video for more information: [Show as video](https://youtu.be/2iGpTgmuYbse "Using new dynamic Credentials in a job template")      
+Check the video for more information: [Show as video](https://youtu.be/WQPMxLqz5yE "Using new dynamic Credentials in a job template")      
